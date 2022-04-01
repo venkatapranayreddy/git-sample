@@ -1,0 +1,50 @@
+/* #para-one {
+    color: blue;
+}
+
+#para-third {
+    color: rgb(0, 211, 70);
+} */
+
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 211, 70), rgba(0, 211, 70, 0.5));
+}
+.para {
+    color: blue;
+
+}
+
+h1:hover{
+    color: rgb(255, 0, 255);
+}
+
+#ordered-list:first-child {
+    color: rgb(115, 255, 0);
+}
+
+.ordered-list-items:nth-child(2) {
+    color: rgb(255, 0, 0);
+}
+
+#link-one:visited #link-two:visited{
+    color: rgb(0, 247, 255);
+}
+
+img[src^="https://"] {
+    border: 10px solid rgb(0, 255, 0);
+}
+
+
+img[src$=".jepg"] {
+    border: 10px solid rgb(56, 56, 56);
+}
+
+
+#container-one {
+    width : 80%;
+    height: 100px;
+    background: linear-gradient(0deg green, blue, red,pink);
+}
+
+
